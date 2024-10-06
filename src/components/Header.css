@@ -1,0 +1,21 @@
+.header {
+	background-color: black;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.75rem 1rem;
+}
+
+.header__logo {
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.header__menu {
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}

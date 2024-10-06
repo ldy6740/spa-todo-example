@@ -7,7 +7,7 @@ import cardStore from './store/cardStore';
 
 import App from './App';
 
-// NOTE 최초 진입시 화면 랜더
+// NOTE 최초 진입시 화면 랜더링
 document.addEventListener('DOMContentLoaded', async () => {
 	const root = document.getElementById('root');
 
