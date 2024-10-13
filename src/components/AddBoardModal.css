@@ -1,0 +1,81 @@
+.add-board-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 24rem;
+  margin: 10vh auto;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 18px rgb(0 0 0 / 40%);
+  z-index: 999;
+}
+
+.add-board-modal__overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(27, 31, 35, 0.5);
+  z-index: 99;
+}
+
+.add-board-modal__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid var(--main-border-color);
+  border-radius: 6px 6px 0 0;
+  background-color: var(--main-bg-color);
+}
+
+.add-board-modal__close-button {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.add-board-modal__body {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.add-board-modal__text-input {
+  padding: 8px;
+  border: 1px solid var(--main-border-color);
+  border-radius: 6px;
+  background-color: var(--main-bg-color);
+}
+
+.add-board-modal__text-input:focus {
+  outline: none;
+  border: 1px #0366d6 solid;
+  border-radius: 4px;
+  box-shadow: 0 0 0 3px #b6cdf0;
+}
+
+.add-board-modal__text-input--m {
+  margin: 8px 0;
+}
+
+.add-board-modal__create-button {
+  width: 8rem;
+  padding: 8px;
+  border: 1px solid var(--green-button-border-color);
+  border-radius: 6px;
+  background-color: var(--green-button-bg-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-board-modal__create-button--mt {
+  margin: 8px 0 0 0;
+}
+
+.add-board-modal__create-button:hover {
+  border-color: var(--green-button-hover-border-color);
+  background-color: var(--green-button-hover-bg-color);
+}
